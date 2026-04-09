@@ -139,8 +139,8 @@
         background: url(/assets/Rectangle\ 9.svg) 50% 0 /contain no-repeat;
 
 
-    &__quote {
-        @include m.font(13px, 400, v.$color_white);
-    }
+        &__quote {
+            @include m.font(13px, 400, v.$color_white);
+        }
     }
 }
