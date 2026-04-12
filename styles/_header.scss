@@ -92,5 +92,22 @@
                 @extend %hover-black-icon;
             }
         }
+
     }
+
 }
+
+ @media (max-width: v.$media_md) {
+
+            .nav__links,
+            .covid__link,
+            .globe__link {
+                display: none;
+            }
+        }
+
+//  @media (max-width: v.$media_md) {
+//            .header {
+//             display: none;
+//            }
+//         }
